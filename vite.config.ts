@@ -19,8 +19,7 @@ export default defineConfig(() => {
 			tsconfigPaths(),
 			angular({
 				tsconfig: 'tsconfig.json',
-				workspaceRoot: process.cwd()
-			})
+			}),
 		],
 		preview: {
 			headers: {
