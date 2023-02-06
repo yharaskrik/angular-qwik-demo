@@ -109,6 +109,13 @@
     rxjs "6.6.7"
     source-map "0.7.4"
 
+"@angular/common@^15.1.3":
+  version "15.1.3"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-15.1.3.tgz#5ad482ff6da4b8820607180c50f208667c3be729"
+  integrity sha512-UjC0COaOcU1g/ODBBetv/BpdaFC/Y32DvXJ9qbD7kkwLwoqCjGOLDvtP36r9zEzPmH7oNkgNGDkgR3gyb82s5A==
+  dependencies:
+    tslib "^2.3.0"
+
 "@angular/compiler-cli@^15.1.3":
   version "15.1.3"
   resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-15.1.3.tgz#c45dd2a50076af836b4f49de903a884048d79918"
@@ -129,6 +136,20 @@
   version "15.1.3"
   resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-15.1.3.tgz#7972d7dec2462e3a2a9fa256902363a716ab2f8c"
   integrity sha512-CxEpm5Z3EpjeGNoWKtcHOrf2IQTSckpAEFwsRrADP2nqcXXYp/IjIHi+PUTjLhjrOEbukH9zreHsL5BoIQhgUQ==
+  dependencies:
+    tslib "^2.3.0"
+
+"@angular/core@^15.1.3":
+  version "15.1.3"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-15.1.3.tgz#08a19d2427fffba8d75bb622f5db0b1406937877"
+  integrity sha512-rad9OYnaoRnXBztOBXsiD59VvOZTpsvO3sWx6KndytQFceFfkL722bF2l2LARN+R3IWDOwRap46HOtc0O0N+sw==
+  dependencies:
+    tslib "^2.3.0"
+
+"@angular/platform-browser@^15.1.3":
+  version "15.1.3"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-15.1.3.tgz#c35912e419baf74e73f90f8cf80fbe4af63f1deb"
+  integrity sha512-WJBN3klssfcRGKY2L2DIpNGbaMQfi2X1le1ZXQAnsfECQ/pua+lFstJUT+RP+Bx4X8icuDggKkS/JPOiBhxARw==
   dependencies:
     tslib "^2.3.0"
 

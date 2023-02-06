@@ -11,12 +11,17 @@ export default defineConfig(() => {
 		},
 		plugins: [
 			qwikCity(),
-			qwikVite(),
+			qwikVite({
+				ssr: {
+					input: 'src/entry.ssr.jsx'
+				}
+			}),
 			tsconfigPaths(),
 			angular({
-				tsconfig: 'tsconfig.app.json',
+				tsconfig: 'tsconfig.json',
 				workspaceRoot: process.cwd()
-			})],
+			})
+		],
 		preview: {
 			headers: {
 				'Cache-Control': 'public, max-age=600',
